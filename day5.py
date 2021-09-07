@@ -42,6 +42,8 @@ for i in range(a):
     for k in (list1[1:]):
         if k > avg :
             student += 1
-            b = b.append(student/list1[0]*100)
-print(b)
+    b = b.append(student/list1[0]*100)
+
+for i in range(a):
+    print('%0.3f%%' %b[i])
 
