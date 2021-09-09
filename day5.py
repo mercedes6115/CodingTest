@@ -45,5 +45,5 @@ for i in range(a):
     b = b.append(student/list1[0]*100)
 
 for i in range(a):
-    print('%0.3f%%' %b[i])
+    print('%0.3f%%' % b[i])
 

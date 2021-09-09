@@ -17,6 +17,7 @@ for i in range(a):
 def total(n): # 6-1번
     return sum(n)
 '''
+'''
 def d(n): #6-2번
    n = n + map(int,str(n)) # n자리수 들어오면 map함수로 각 자리수 나눠주고 int로 변환후 더해줌
    return n
@@ -27,3 +28,6 @@ for i in range(1,10001):
 for i in range(1,10001): # 검색해서 없을경우 셀프 넘버이므로 그 넘버 출력력
     if i not in a:
         print(i)
+'''
+
+print(sum(map(int, str(123))))#
